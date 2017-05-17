@@ -11,7 +11,7 @@
 	<h3>절대경로 /helloweb/assets/images/logo.jpg</h3>
 	<img src="/helloweb/assets/images/logo.jpg">
 	
-	<h3>상대경로  assets/images/logo.jpg</h3>
+	<h3>상대경로  ./assets/images/logo.jpg</h3>
 	<img src="assets/images/logo.jpg">
 	
 	
