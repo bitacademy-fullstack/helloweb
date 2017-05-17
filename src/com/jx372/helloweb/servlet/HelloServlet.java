@@ -17,10 +17,12 @@ public class HelloServlet extends HttpServlet {
 		HttpServletRequest request, 
 		HttpServletResponse response) throws ServletException, IOException {
 		
-		String name = request.getParameter( "name" );
+		String name = request.getParameter( "n" );
+		
+		response.setContentType( "text/html; charset=utf-8" );
 		
 		PrintWriter out = response.getWriter();
-		out.println( "<h1>hello " + name + "</h1>" );
+		out.println( "<h1>안녕 " + name + "</h1>" );
 	}
 
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
